@@ -14,6 +14,8 @@
 		5A5B40321B175625003E0F0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A5B40311B175625003E0F0E /* Images.xcassets */; };
 		5A5B40351B175625003E0F0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A5B40331B175625003E0F0E /* LaunchScreen.xib */; };
 		5A5B40411B175625003E0F0E /* AddressDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B40401B175625003E0F0E /* AddressDemoTests.m */; };
+		5A7A57CD1B17FC2000DB1DB8 /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A57CC1B17FC2000DB1DB8 /* AddressViewController.m */; };
+		5A7A57CF1B17FD5200DB1DB8 /* address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A7A57CE1B17FD5200DB1DB8 /* address.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		5A5B403A1B175625003E0F0E /* AddressDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A5B403F1B175625003E0F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A5B40401B175625003E0F0E /* AddressDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressDemoTests.m; sourceTree = "<group>"; };
+		5A7A57CB1B17FC2000DB1DB8 /* AddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressViewController.h; sourceTree = "<group>"; };
+		5A7A57CC1B17FC2000DB1DB8 /* AddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressViewController.m; sourceTree = "<group>"; };
+		5A7A57CE1B17FD5200DB1DB8 /* address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = address.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,8 @@
 				5A5B40291B175625003E0F0E /* AppDelegate.m */,
 				5A5B402B1B175625003E0F0E /* ViewController.h */,
 				5A5B402C1B175625003E0F0E /* ViewController.m */,
+				5A7A57CB1B17FC2000DB1DB8 /* AddressViewController.h */,
+				5A7A57CC1B17FC2000DB1DB8 /* AddressViewController.m */,
 				5A5B402E1B175625003E0F0E /* Main.storyboard */,
 				5A5B40311B175625003E0F0E /* Images.xcassets */,
 				5A5B40331B175625003E0F0E /* LaunchScreen.xib */,
@@ -96,6 +103,7 @@
 		5A5B40241B175625003E0F0E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5A7A57CE1B17FD5200DB1DB8 /* address.plist */,
 				5A5B40251B175625003E0F0E /* Info.plist */,
 				5A5B40261B175625003E0F0E /* main.m */,
 			);
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A5B40301B175625003E0F0E /* Main.storyboard in Resources */,
+				5A7A57CF1B17FD5200DB1DB8 /* address.plist in Resources */,
 				5A5B40351B175625003E0F0E /* LaunchScreen.xib in Resources */,
 				5A5B40321B175625003E0F0E /* Images.xcassets in Resources */,
 			);
@@ -222,6 +231,7 @@
 				5A5B402D1B175625003E0F0E /* ViewController.m in Sources */,
 				5A5B402A1B175625003E0F0E /* AppDelegate.m in Sources */,
 				5A5B40271B175625003E0F0E /* main.m in Sources */,
+				5A7A57CD1B17FC2000DB1DB8 /* AddressViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +428,7 @@
 				5A5B40461B175625003E0F0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A5B40471B175625003E0F0E /* Build configuration list for PBXNativeTarget "AddressDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +437,7 @@
 				5A5B40491B175625003E0F0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

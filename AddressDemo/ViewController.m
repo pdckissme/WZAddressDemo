@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "AddressViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.addressButton addTarget:self action:@selector(selectAddress) forControlEvents:UIControlEventTouchUpInside];
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)selectAddress{
+    AddressViewController *addressVC = [[AddressViewController alloc]init];
+    UINavigationController *naVC = [[UINavigationController alloc]initWithRootViewController:addressVC];
+    [self presentViewController:naVC animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
